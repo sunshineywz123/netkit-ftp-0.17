@@ -1,0 +1,5 @@
+---- ftp_port Matches (4 in 3 files) ----
+Cmds.c (ftp):	port = ftp_port;
+Ftp_var.h (ftp):Extern int	ftp_port;	/* htons'd port number for ftp service */
+Main.c (ftp):	ftp_port = sp->s_port;*/
+Main.c (ftp):	ftp_port=ntohs(21);
